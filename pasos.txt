@@ -1,6 +1,2 @@
 crear una carpeta
-arrastrar al visual studio code 
-npm init -y
-npm install express --save
-npm install mysql
-npm install cors
+
