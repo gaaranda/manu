@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "a4dc2ab5-2d78-4d5d-b315-5e043b4e8d66",
+		"name": "Primera",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "categorias",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8500/api/categorias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8500",
+					"path": [
+						"api",
+						"categorias"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
